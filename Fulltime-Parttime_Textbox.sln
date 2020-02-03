@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fulltime-Parttime_Textbox", "Fulltime-Parttime_Textbox\Fulltime-Parttime_Textbox.csproj", "{6B71AE3B-7918-4B22-A7DE-742A812D7217}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B71AE3B-7918-4B22-A7DE-742A812D7217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B71AE3B-7918-4B22-A7DE-742A812D7217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B71AE3B-7918-4B22-A7DE-742A812D7217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B71AE3B-7918-4B22-A7DE-742A812D7217}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C2315AF-6989-4B92-B40C-C3BADE780C56}
+	EndGlobalSection
+EndGlobal
