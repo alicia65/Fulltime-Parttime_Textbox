@@ -77,13 +77,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1100, 562);
+            this.ClientSize = new System.Drawing.Size(503, 265);
             this.Controls.Add(this.btnWhatStatus);
             this.Controls.Add(this.txtCredits);
             this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Full time, half time?";
             this.ResumeLayout(false);

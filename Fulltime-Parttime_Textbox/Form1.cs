@@ -19,12 +19,12 @@ namespace Fulltime_Parttime_Textbox
 
         private void btnWhatStatus_Click(object sender, EventArgs e)
         {
-            if (Double.TryParse(txtCredits.Text, out double credits))
+            if (Double.TryParse(txtCredits.Text, out double credits)) 
             {
                 //figure out status
                 if(credits >= 12) 
                 {
-                    lblStatus.Text = "Full time";
+                    lblStatus.Text = "Full time";//status textbox displays full time
                 }
                 else if (credits >= 6)
                 {
@@ -36,7 +36,7 @@ namespace Fulltime_Parttime_Textbox
                 }
                 else
                 {
-                    MessageBox.Show("Enter as positive number", "Error");
+                    MessageBox.Show("Enter as positive number", "Error");//messageBox shows message if user entered negative numbers or letters
                 }
             }
             else 
