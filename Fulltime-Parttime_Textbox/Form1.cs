@@ -16,13 +16,12 @@ namespace Fulltime_Parttime_Textbox
         {
             InitializeComponent();
         }
-
         private void btnWhatStatus_Click(object sender, EventArgs e)
         {
-            if (Double.TryParse(txtCredits.Text, out double credits)) 
+            if (Double.TryParse(txtCredits.Text, out double credits))
             {
-                //figure out status
-                if(credits >= 12) 
+                //if and else if statements display different credit conditions with text: Full time, half time and less than half time on status textBox
+                if (credits >= 12)
                 {
                     lblStatus.Text = "Full time";//status textbox displays full time
                 }
@@ -30,7 +29,7 @@ namespace Fulltime_Parttime_Textbox
                 {
                     lblStatus.Text = "Half time";
                 }
-                if (credits >= 0)
+                else if (credits >= 0)
                 {
                     lblStatus.Text = "Less than half time";
                 }
@@ -39,10 +38,10 @@ namespace Fulltime_Parttime_Textbox
                     MessageBox.Show("Enter as positive number", "Error");//messageBox shows message if user entered negative numbers or letters
                 }
             }
-            else 
-            {
-                MessageBox.Show("Enter a number", "Error");
-            }
+             else
+             {
+                MessageBox.Show("Enter a number", "Error");// MessageBox informs user to enter only numbers in the status TextBox. 
+             }
         }
     }
 }
